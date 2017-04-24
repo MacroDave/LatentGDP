@@ -74,7 +74,7 @@ summarised_state %>%
   ggtitle("Latent GDP Growth Model")
 
 # Print estimated parameters from the model
-print(sampled_model, pars = c("mu", "rho", "tau", "sigma"))
+print(sampled_model, pars = c("mu", "rho", "tau", "L_sigma", "Sigma"))
 
 # End ---------------------------------------------------------------------
 #shinystan::launch_shinystan(latent_model)
