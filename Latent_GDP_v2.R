@@ -1,7 +1,7 @@
 library(ggthemes); library(stringr);library(reshape2);library(rstan); library(dplyr); library(ggplot2); library(zoo); library(Quandl);
 options(mc.cores = parallel::detectCores())
 
-Quandl.api_key("c8j3mjrA43ToLv5yKYnv")
+Quandl.api_key("ZZZZZZZZZZZZZ")
 
 #real gdp millions chained dollars - qtly seasonally adj
 GDPA <- Quandl("AUSBS/5206002_EXPENDITURE_VOLUME_MEASURES_A2304402X") %>% 
